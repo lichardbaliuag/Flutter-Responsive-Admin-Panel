@@ -66,7 +66,7 @@ class Sidebar extends StatelessWidget {
                       leading:
                           SvgPicture.asset("assets/icons/diamond_light.svg"),
                       title: Text(
-                        "Products",
+                        "Assets",
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           color: Theme.of(context).textTheme.bodyMedium!.color,
@@ -80,13 +80,13 @@ class Sidebar extends StatelessWidget {
                         ),
                         MenuTile(
                           isSubmenu: true,
-                          title: "Products",
+                          title: "Asset List",
                           count: 16,
                           onPressed: () {},
                         ),
                         MenuTile(
                           isSubmenu: true,
-                          title: "Add Product",
+                          title: "Add Asset",
                           onPressed: () {},
                         ),
                       ],
@@ -97,7 +97,7 @@ class Sidebar extends StatelessWidget {
                       leading: SvgPicture.asset(
                           "assets/icons/profile_circled_light.svg"),
                       title: Text(
-                        "Customers",
+                        "Schedule",
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           color: Theme.of(context).textTheme.bodyMedium!.color,
@@ -106,12 +106,12 @@ class Sidebar extends StatelessWidget {
                       children: [
                         MenuTile(
                           isSubmenu: true,
-                          title: "Dashboard",
+                          title: "Summary",
                           onPressed: () {},
                         ),
                         MenuTile(
                           isSubmenu: true,
-                          title: "Products",
+                          title: "Maintenance Job",
                           count: 16,
                           onPressed: () {},
                         ),
@@ -122,12 +122,12 @@ class Sidebar extends StatelessWidget {
                         ),
                       ],
                     ),
-                    MenuTile(
-                      title: "Shop",
-                      activeIconSrc: "assets/icons/store_light.svg",
-                      inactiveIconSrc: "assets/icons/store_filled.svg",
-                      onPressed: () {},
-                    ),
+                    //MenuTile(
+                    //  title: "Shop",
+                    //  activeIconSrc: "assets/icons/store_light.svg",
+                    //  inactiveIconSrc: "assets/icons/store_filled.svg",
+                    //  onPressed: () {},
+                    //),
                   ],
                 ),
               ),

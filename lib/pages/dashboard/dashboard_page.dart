@@ -38,8 +38,8 @@ class DashboardPage extends StatelessWidget {
                   gapH16,
                   const ProductOverviews(),
                   gapH16,
-                  const ProTips(),
-                  gapH16,
+                  //const ProTips(),
+                  //gapH16,
                   const GetMoreCustomers(),
                   if (Responsive.isMobile(context))
                     const Column(
